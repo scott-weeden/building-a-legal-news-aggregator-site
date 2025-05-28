@@ -1,0 +1,48 @@
+{
+    "terminal.integrated.profiles.windows": {
+        "Python venv": {
+            "path": [
+                "${workspaceFolder}\\venv\\Scripts\\python.exe"
+            ],
+            "args": [
+                "-m",
+                "venv",
+                "venv",
+                "&&",
+                "venv\\Scripts\\activate"
+            ]
+        }
+    },
+    "terminal.integrated.profiles.osx": {
+        "Python venv": {
+            "path": "bash",
+            "args": [
+                "-c",
+                "source ${workspaceFolder}/venv/bin/activate && exec bash"
+            ]
+        },
+        "C++ v11": {
+            "path": "make clean",
+            "args": [
+                "&& make"
+            ]
+        }
+    },
+    "terminal.integrated.profiles.linux": {
+        "Python venv": {
+            "path": "bash",
+            "args": [
+                "-c",
+                "source ${workspaceFolder}/venv/bin/activate && exec bash"
+            ]
+        }
+    },
+    "terminal.integrated.defaultProfile.windows": "Python venv",
+    "terminal.integrated.defaultProfile.osx": "Python venv",
+    "terminal.integrated.defaultProfile.linux": "Python venv",
+    "files.associations": {
+        "*.erd": "json",
+        "*.vuerd": "json",
+        "string": "cpp"
+    }
+}
