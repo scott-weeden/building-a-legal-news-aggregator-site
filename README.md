@@ -30,7 +30,7 @@ Even if your content isn't strictly about .NET, but focuses on software developm
 
 ### Enrollment Process
 
-1 - Visit my Github repository: https://github.com/karlospn/building-a-dotnet-news-aggregator-site
+1 - Visit my Github repository: https://github.com/scott-weeden/building-a-legal-news-aggregator-site
 
 2 - The ``/data`` folder contain the current feeds utilized by this site.
 
