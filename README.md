@@ -3,7 +3,7 @@
 Let's try to build a simple .NET news aggregator site using Python, Hugo and a scheduled Github Action.
 
 This repository contains the site source code. The published code can be found in this another GitHub repository:
-- https://github.com/karlospn/mydotnetramblings-news-site
+- https://github.com/scott-weeden/mylegalramblings-news-site
 
 # **.NET Ramblings site**
 
